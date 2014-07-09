@@ -1,0 +1,16 @@
+CHANGES IN VERSION 1.1.0
+
+  * several enhancements to speed up execution.
+  
+  * specification of the sigma parameter of the half-normal detection function corrected.
+  
+  * units for density are now animals per sq km (not per 100 sq km).
+  
+  * a file with information about the run (info_<time>.txt) is produced.
+  
+  * the example data files moved to int/extdata directory and renamed; help file for these rewritten.
+  
+  * priors in the density plots for psi and N are now correct; incorrect priors for other plots removed.
+  
+  * new plot of detection function, with state space extent diagnostic information.
+

@@ -1,0 +1,21 @@
+citHeader("To cite package 'SPACECAP' in publications, use:")
+desc <- packageDescription("SPACECAP")
+year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", desc$Date)
+vers <- paste("R package version", desc$Version)
+citEntry(entry="Manual",
+title = "A Program to Estimate Animal Abundance and Density using Bayesian Spatially-Explicit Capture-Recapture Models",
+author = personList(as.person("Arjun M. Gopalaswamy"),
+                    as.person("Andrew J. Royle"),
+		    as.person("Michael E. Meredith"),
+		    as.person("Pallavi Singh"),
+ 		    as.person("Devcharan Jathanna"),	
+                    as.person("N. Samba Kumar"),
+		    as.person("K. Ullas Karanth")),
+year = year,
+note = vers,
+textVersion =
+paste("Arjun M. Gopalaswamy, Andrew J. Royle, Michael E. Meredith, Pallavi Singh, Devcharan Jathanna, N. Samba Kumar
+and K. Ullas Karanth (",
+year,
+"). SPACECAP: A Program to Estimate Animal Abundance and Density using Bayesian Spatially-Explicit Capture-Recapture Models. ",
+vers, ".", sep=""))

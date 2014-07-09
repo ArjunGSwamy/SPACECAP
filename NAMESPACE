@@ -1,0 +1,7 @@
+
+importFrom(coda, as.mcmc, geweke.diag, effectiveSize)
+
+export(SPACECAP)
+
+# Not exported: hdi, e2dist, plotDetFunc
+
